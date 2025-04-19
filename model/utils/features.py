@@ -26,8 +26,7 @@ resndict = {'ALA': 'A', 'ARG': 'R', 'ASN': 'N', 'ASP': 'D', 'CYS': 'C',
             # Histidine variants:
             'HID': 'H', 'HIP': 'H', 'HIE': 'H',
             # Cystein variants:
-            'CYX': 'C',
-            }
+            'CYX': 'C'}
 
 aa_trans = str.maketrans('ARNDCQEGHILKMFPSTWYVBJOUXZ-.',
                          'ABCDEFGHIJKLMNOPQRSTUUUUUUVV')
